@@ -1,13 +1,13 @@
 self.assetsManifest = {
-  "version": "d83kJhSo",
+  "version": "RzQ66cnA",
   "assets": [
     {
       "hash": "sha256-2yTGIKnnP5YVKDXnrhbCB+rswtEk0ad34p0LUR/KfXY=",
       "url": "Angor.Client.styles.css"
     },
     {
-      "hash": "sha256-Mc6I/ZmbYshlCvzzS9eqYX/86XmY2VXZXNbVli1OlYw=",
-      "url": "_framework/Angor.Client.pqzlihvkrn.wasm"
+      "hash": "sha256-tIwRaSts8OaFA1hzqxomFL9XcCVyCvWlqNe1NMk4aqg=",
+      "url": "_framework/Angor.Client.wj8kjajycg.wasm"
     },
     {
       "hash": "sha256-IeFoTML5Y+08HUO7Y/EzCm+FA6ElP6xk2BCusOjNF9Y=",
@@ -146,7 +146,7 @@ self.assetsManifest = {
       "url": "_framework/System.Threading.u9nh6upk0z.wasm"
     },
     {
-      "hash": "sha256-8Q6l2rdpQbKLX4HjP3DL0axF2iRUz6//V31bPbr08Qo=",
+      "hash": "sha256-Ag0YpP2kki1yAcWFZOy4J1DPH7A9N9T82x6ITuC/rCg=",
       "url": "_framework/blazor.boot.json"
     },
     {

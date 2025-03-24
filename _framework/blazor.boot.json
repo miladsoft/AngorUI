@@ -1,9 +1,9 @@
 {
   "mainAssemblyName": "Angor.Client",
   "resources": {
-    "hash": "sha256-bn9+48EzoG++PHpiQPP/PjYOISTiNxJYhUgR5U4q3ac=",
+    "hash": "sha256-GzLDZjwl1OaogapkHOiYna16OlnCVH2TwDjIgU6VUp8=",
     "fingerprinting": {
-      "Angor.Client.pqzlihvkrn.wasm": "Angor.Client.wasm",
+      "Angor.Client.wj8kjajycg.wasm": "Angor.Client.wasm",
       "Microsoft.AspNetCore.Components.f85x6bhxd9.wasm": "Microsoft.AspNetCore.Components.wasm",
       "Microsoft.AspNetCore.Components.Web.horg9ede60.wasm": "Microsoft.AspNetCore.Components.Web.wasm",
       "Microsoft.AspNetCore.Components.WebAssembly.qyco4g5bmd.wasm": "Microsoft.AspNetCore.Components.WebAssembly.wasm",
@@ -65,7 +65,7 @@
       "System.Runtime.InteropServices.JavaScript.0tgicm7vjk.wasm": "sha256-bAbPaONHne7R1hItHoY8/SYWlDb84JZQ1cxd1Y+tJn0="
     },
     "assembly": {
-      "Angor.Client.pqzlihvkrn.wasm": "sha256-Mc6I/ZmbYshlCvzzS9eqYX/86XmY2VXZXNbVli1OlYw=",
+      "Angor.Client.wj8kjajycg.wasm": "sha256-tIwRaSts8OaFA1hzqxomFL9XcCVyCvWlqNe1NMk4aqg=",
       "Microsoft.AspNetCore.Components.f85x6bhxd9.wasm": "sha256-QUUSI2PPaKjWDgLTg1BTjOOZj+M/IE/pNPxv5FxvFFM=",
       "Microsoft.AspNetCore.Components.Web.horg9ede60.wasm": "sha256-IeFoTML5Y+08HUO7Y/EzCm+FA6ElP6xk2BCusOjNF9Y=",
       "Microsoft.AspNetCore.Components.WebAssembly.qyco4g5bmd.wasm": "sha256-oitky6v+cC5sMmEkKurORgAL8h6q3jcJRkF7eYw2ubk=",
