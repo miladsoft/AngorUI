@@ -1,4 +1,4 @@
-# Angor Client
+# Angor Client UI
 
 A modern Blazor WebAssembly application styled with Tailwind CSS v4 and a consistent Angor color scheme.
 
