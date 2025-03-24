@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Angor.Client</title>
     <base href="/" />
-    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
     <link rel="icon" type="image/png" href="favicon.png" />
     <link href="Angor.Client.styles.css" rel="stylesheet" />
     <link href="manifest.webmanifest" rel="manifest" />
@@ -15,19 +14,17 @@
     <link rel="apple-touch-icon" sizes="192x192" href="icon-192.png" />
 </head>
 
-<body>
+<body class="bg-angor-100">
     <div id="app">
-        <svg class="loading-progress">
-            <circle r="40%" cx="50%" cy="50%" />
-            <circle r="40%" cx="50%" cy="50%" />
-        </svg>
-        <div class="loading-progress-text"></div>
+        <div class="fixed inset-0 flex items-center justify-center">
+            <div class="w-16 h-16 border-4 border-angor-500 border-t-transparent rounded-full animate-spin"></div>
+        </div>
     </div>
 
-    <div id="blazor-error-ui">
+    <div id="blazor-error-ui" class="fixed bottom-0 w-full bg-angor-100 text-angor-700 p-4 hidden shadow-lg z-50">
         An unhandled error has occurred.
-        <a href="." class="reload">Reload</a>
-        <span class="dismiss">🗙</span>
+        <a href="." class="font-medium underline">Reload</a>
+        <span class="dismiss cursor-pointer float-right">🗙</span>
     </div>
     <script src="_framework/blazor.webassembly.js"></script>
     <script>navigator.serviceWorker.register('service-worker.js');</script>

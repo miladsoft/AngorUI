@@ -1,0 +1,32 @@
+@inject Angor.Client.Services.ThemeService ThemeService
+@implements IDisposable
+
+<button @onclick="ToggleTheme" class="flex items-center justify-center p-2 rounded-lg  transition-all duration-300" title="@(ThemeService.IsDarkMode ? "Switch to light mode" : "Switch to dark mode")">
+    <div class="relative w-6 h-6 overflow-hidden">
+        @if (ThemeService.IsDarkMode)
+        {
+            <span class="absolute top-0 left-0 transform transition-transform duration-500 rotate-0 scale-100">🌞</span>
+        }
+        else
+        {
+            <span class="absolute top-0 left-0 transform transition-transform duration-500 rotate-0 scale-100">🌙</span>
+        }
+    </div>
+</button>
+
+@code {
+    protected override void OnInitialized()
+    {
+        ThemeService.OnThemeChange += StateHasChanged;
+    }
+
+    private async Task ToggleTheme()
+    {
+        await ThemeService.ToggleThemeAsync();
+    }
+
+    public void Dispose()
+    {
+        ThemeService.OnThemeChange -= StateHasChanged;
+    }
+}

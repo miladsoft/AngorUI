@@ -75,3 +75,39 @@ main {
         padding-right: 1.5rem !important;
     }
 }
+
+/* Update tablet view styles */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .sidebar {
+        width: 80px;
+        padding: 1rem 0.5rem;
+    }
+    
+    nav {
+        padding: 1rem 0.25rem !important;
+    }
+    
+    .nav-item-text {
+        display: none;
+    }
+    
+    .icon-container {
+        min-width: 48px;
+        min-height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* Mobile optimizations */
+@media (max-width: 767px) {
+    .main-content {
+        padding: 1rem;
+    }
+    
+    .mobile-menu {
+        max-height: calc(100vh - 4rem);
+        overflow-y: auto;
+    }
+}

@@ -1,0 +1,46 @@
+@page "/wallet"
+
+<div class="space-y-6">
+    <div class="flex justify-between items-center">
+        <h1 class="text-2xl font-bold text-angor-800 dark:text-white">Wallet</h1>
+        <button class="bg-angor-600 hover:bg-angor-700 text-white px-4 py-2 rounded-lg transition-all duration-300 flex items-center space-x-2">
+            <lord-icon
+                src="https://cdn.lordicon.com/yeallgsa.json"
+                trigger="hover"
+                colors="primary:#ffffff"
+                class="w-5 h-5">
+            </lord-icon>
+            <span>Add Wallet</span>
+        </button>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Wallet Card -->
+        @for (int i = 1; i <= 3; i++)
+        {
+            <div class="bg-white dark:bg-angor-800/50 rounded-xl shadow-lg p-6 hover:shadow-xl transition-all duration-300">
+                <div class="flex items-start justify-between">
+                    <div>
+                        <h3 class="text-lg font-semibold text-angor-900 dark:text-white">Main Wallet @i</h3>
+                        <p class="text-angor-500 dark:text-angor-300">Balance</p>
+                        <p class="text-2xl font-bold text-angor-700 dark:text-angor-100 mt-2">$1,234.56</p>
+                    </div>
+                    <div class="text-angor-400 dark:text-angor-500">
+                        <lord-icon
+                            src="https://cdn.lordicon.com/yeallgsa.json"
+                            trigger="hover"
+                            colors="primary:#818cf8"
+                            class="w-10 h-10">
+                        </lord-icon>
+                    </div>
+                </div>
+                <div class="mt-4 pt-4 border-t border-angor-100 dark:border-angor-700">
+                    <div class="flex justify-between text-sm">
+                        <span class="text-angor-500 dark:text-angor-400">Last Transaction</span>
+                        <span class="text-angor-700 dark:text-angor-200 font-medium">2 hours ago</span>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

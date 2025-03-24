@@ -1,40 +1,54 @@
 ﻿@page "/weather"
 @inject HttpClient Http
+@using System.Net.Http.Json
 
-<PageTitle>Weather</PageTitle>
+<PageTitle>Weather - Angor UI</PageTitle>
 
-<h1>Weather</h1>
+<div class="card dark:bg-angor-dark/30 bg-white shadow-md rounded-lg overflow-hidden transition-colors duration-300">
+    <div class="p-6">
+        <h1 class="text-3xl font-bold text-angor-primary dark:text-angor-light mb-4 transition-colors duration-300">Weather Forecast</h1>
 
-<p>This component demonstrates fetching data from the server.</p>
+        <p class="text-gray-600 dark:text-angor-light/80 mb-6 transition-colors duration-300">This component demonstrates fetching data from a service.</p>
 
-@if (forecasts == null)
-{
-    <p><em>Loading...</em></p>
-}
-else
-{
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Date</th>
-                <th aria-label="Temperature in Celsius">Temp. (C)</th>
-                <th aria-label="Temperature in Farenheit">Temp. (F)</th>
-                <th>Summary</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var forecast in forecasts)
-            {
-                <tr>
-                    <td>@forecast.Date.ToShortDateString()</td>
-                    <td>@forecast.TemperatureC</td>
-                    <td>@forecast.TemperatureF</td>
-                    <td>@forecast.Summary</td>
-                </tr>
-            }
-        </tbody>
-    </table>
-}
+        @if (forecasts == null)
+        {
+            <div class="py-8 flex flex-col items-center justify-center">
+                <div class="w-16 h-16 border-4 border-angor-primary border-t-transparent rounded-full animate-spin"></div>
+                <p class="mt-4 text-angor-primary dark:text-angor-light transition-colors duration-300"><em>Loading weather data...</em></p>
+            </div>
+        }
+        else
+        {
+            <div class="overflow-x-auto bg-white dark:bg-angor-dark/50 rounded-lg shadow-sm transition-colors duration-300">
+                <table class="min-w-full divide-y divide-angor-200 dark:divide-angor-700">
+                    <thead class="bg-angor-light/30 dark:bg-angor-primary/30">
+                        <tr>
+                            <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-angor-primary uppercase tracking-wider dark:text-angor-light transition-colors duration-300">Date</th>
+                            <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-angor-primary uppercase tracking-wider dark:text-angor-light transition-colors duration-300" aria-label="Temperature in Celsius">Temp. (C)</th>
+                            <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-angor-primary uppercase tracking-wider dark:text-angor-light transition-colors duration-300" aria-label="Temperature in Fahrenheit">Temp. (F)</th>
+                            <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-angor-primary uppercase tracking-wider dark:text-angor-light transition-colors duration-300">Summary</th>
+                        </tr>
+                    </thead>
+                    <tbody class="bg-white dark:bg-transparent divide-y divide-angor-200 dark:divide-angor-700">
+                        @foreach (var forecast in forecasts)
+                        {
+                            <tr class="hover:bg-angor-light/10 dark:hover:bg-angor-primary/10 transition-colors duration-300">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-angor-900 dark:text-angor-light/90 transition-colors duration-300">@forecast.Date.ToShortDateString()</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-angor-800 dark:text-angor-light/80 transition-colors duration-300">@forecast.TemperatureC°</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-angor-800 dark:text-angor-light/80 transition-colors duration-300">@forecast.TemperatureF°</td>
+                                <td class="px-6 py-4 whitespace-nowrap">
+                                    <span class="@GetSummaryClass(forecast.Summary) px-3 py-1 rounded-full text-xs font-medium">
+                                        @forecast.Summary
+                                    </span>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        }
+    </div>
+</div>
 
 @code {
     private WeatherForecast[]? forecasts;
@@ -44,14 +58,29 @@ else
         forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("sample-data/weather.json");
     }
 
+    private string GetSummaryClass(string? summary)
+    {
+        return summary switch
+        {
+            "Freezing" => "bg-angor-100 text-angor-800 dark:bg-angor-800/20 dark:text-angor-300",
+            "Bracing" => "bg-angor-50 text-angor-800 dark:bg-angor-800/20 dark:text-angor-200",
+            "Chilly" => "bg-angor-100 text-angor-700 dark:bg-angor-700/20 dark:text-angor-300",
+            "Cool" => "bg-angor-200 text-angor-600 dark:bg-angor-600/20 dark:text-angor-300",
+            "Mild" => "bg-angor-100 text-angor-600 dark:bg-angor-600/20 dark:text-angor-200",
+            "Warm" => "bg-angor-200 text-angor-700 dark:bg-angor-700/20 dark:text-angor-300",
+            "Balmy" => "bg-angor-100 text-angor-800 dark:bg-angor-800/20 dark:text-angor-300",
+            "Hot" => "bg-angor-200 text-angor-700 dark:bg-angor-700/20 dark:text-angor-300",
+            "Sweltering" => "bg-angor-100 text-angor-800 dark:bg-angor-800/20 dark:text-angor-300",
+            "Scorching" => "bg-angor-200 text-angor-700 dark:bg-angor-700/20 dark:text-angor-300",
+            _ => "bg-angor-100 text-angor-800 dark:bg-angor-800/20 dark:text-angor-300"
+        };
+    }
+
     public class WeatherForecast
     {
         public DateOnly Date { get; set; }
-
         public int TemperatureC { get; set; }
-
         public string? Summary { get; set; }
-
         public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
     }
 }

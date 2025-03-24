@@ -1,7 +1,64 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\Git\\miladsoft\\AngorUI\\Angor.Client\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A5F45C-FD35-4E87-BF55-2136FA41AB9A}|Angor.Client.csproj|e:\\git\\miladsoft\\angorui\\angor.client\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C2A5F45C-FD35-4E87-BF55-2136FA41AB9A}|Angor.Client.csproj|solutionrelative:layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A5F45C-FD35-4E87-BF55-2136FA41AB9A}|Angor.Client.csproj|e:\\git\\miladsoft\\angorui\\angor.client\\components\\themetoggle.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C2A5F45C-FD35-4E87-BF55-2136FA41AB9A}|Angor.Client.csproj|solutionrelative:components\\themetoggle.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A5F45C-FD35-4E87-BF55-2136FA41AB9A}|Angor.Client.csproj|e:\\git\\miladsoft\\angorui\\angor.client\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C2A5F45C-FD35-4E87-BF55-2136FA41AB9A}|Angor.Client.csproj|solutionrelative:wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A5F45C-FD35-4E87-BF55-2136FA41AB9A}|Angor.Client.csproj|e:\\git\\miladsoft\\angorui\\angor.client\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C2A5F45C-FD35-4E87-BF55-2136FA41AB9A}|Angor.Client.csproj|solutionrelative:layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A5F45C-FD35-4E87-BF55-2136FA41AB9A}|Angor.Client.csproj|e:\\git\\miladsoft\\angorui\\angor.client\\services\\themeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2A5F45C-FD35-4E87-BF55-2136FA41AB9A}|Angor.Client.csproj|solutionrelative:services\\themeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A5F45C-FD35-4E87-BF55-2136FA41AB9A}|Angor.Client.csproj|e:\\git\\miladsoft\\angorui\\angor.client\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C2A5F45C-FD35-4E87-BF55-2136FA41AB9A}|Angor.Client.csproj|solutionrelative:style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A5F45C-FD35-4E87-BF55-2136FA41AB9A}|Angor.Client.csproj|e:\\git\\miladsoft\\angorui\\angor.client\\pages\\tailwinddemo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C2A5F45C-FD35-4E87-BF55-2136FA41AB9A}|Angor.Client.csproj|solutionrelative:pages\\tailwinddemo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A5F45C-FD35-4E87-BF55-2136FA41AB9A}|Angor.Client.csproj|e:\\git\\miladsoft\\angorui\\angor.client\\wwwroot\\icon-512.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{C2A5F45C-FD35-4E87-BF55-2136FA41AB9A}|Angor.Client.csproj|solutionrelative:wwwroot\\icon-512.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A5F45C-FD35-4E87-BF55-2136FA41AB9A}|Angor.Client.csproj|e:\\git\\miladsoft\\angorui\\angor.client\\wwwroot\\manifest.webmanifest||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C2A5F45C-FD35-4E87-BF55-2136FA41AB9A}|Angor.Client.csproj|solutionrelative:wwwroot\\manifest.webmanifest||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A5F45C-FD35-4E87-BF55-2136FA41AB9A}|Angor.Client.csproj|e:\\git\\miladsoft\\angorui\\angor.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2A5F45C-FD35-4E87-BF55-2136FA41AB9A}|Angor.Client.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A5F45C-FD35-4E87-BF55-2136FA41AB9A}|Angor.Client.csproj|e:\\git\\miladsoft\\angorui\\angor.client\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C2A5F45C-FD35-4E87-BF55-2136FA41AB9A}|Angor.Client.csproj|solutionrelative:app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A5F45C-FD35-4E87-BF55-2136FA41AB9A}|Angor.Client.csproj|e:\\git\\miladsoft\\angorui\\angor.client\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C2A5F45C-FD35-4E87-BF55-2136FA41AB9A}|Angor.Client.csproj|solutionrelative:package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A5F45C-FD35-4E87-BF55-2136FA41AB9A}|Angor.Client.csproj|e:\\git\\miladsoft\\angorui\\angor.client\\angor.client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C2A5F45C-FD35-4E87-BF55-2136FA41AB9A}|Angor.Client.csproj|solutionrelative:angor.client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A5F45C-FD35-4E87-BF55-2136FA41AB9A}|Angor.Client.csproj|e:\\git\\miladsoft\\angorui\\angor.client\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C2A5F45C-FD35-4E87-BF55-2136FA41AB9A}|Angor.Client.csproj|solutionrelative:pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +75,187 @@
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{7f40df72-066b-4810-a08b-c0fbed76c948}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "E:\\Git\\miladsoft\\AngorUI\\Angor.Client\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Layout\\NavMenu.razor",
+              "ToolTip": "E:\\Git\\miladsoft\\AngorUI\\Angor.Client\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Layout\\NavMenu.razor",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEgAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T15:48:10.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "E:\\Git\\miladsoft\\AngorUI\\Angor.Client\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Layout\\MainLayout.razor",
+              "ToolTip": "E:\\Git\\miladsoft\\AngorUI\\Angor.Client\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T15:47:20.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ThemeService.cs",
+              "DocumentMoniker": "E:\\Git\\miladsoft\\AngorUI\\Angor.Client\\Services\\ThemeService.cs",
+              "RelativeDocumentMoniker": "Services\\ThemeService.cs",
+              "ToolTip": "E:\\Git\\miladsoft\\AngorUI\\Angor.Client\\Services\\ThemeService.cs",
+              "RelativeToolTip": "Services\\ThemeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T15:45:46.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ThemeToggle.razor",
+              "DocumentMoniker": "E:\\Git\\miladsoft\\AngorUI\\Angor.Client\\Components\\ThemeToggle.razor",
+              "RelativeDocumentMoniker": "Components\\ThemeToggle.razor",
+              "ToolTip": "E:\\Git\\miladsoft\\AngorUI\\Angor.Client\\Components\\ThemeToggle.razor",
+              "RelativeToolTip": "Components\\ThemeToggle.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T15:45:26.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TailwindDemo.razor",
+              "DocumentMoniker": "E:\\Git\\miladsoft\\AngorUI\\Angor.Client\\Pages\\TailwindDemo.razor",
+              "RelativeDocumentMoniker": "Pages\\TailwindDemo.razor",
+              "ToolTip": "E:\\Git\\miladsoft\\AngorUI\\Angor.Client\\Pages\\TailwindDemo.razor",
+              "RelativeToolTip": "Pages\\TailwindDemo.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T15:45:10.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "icon-512.png",
+              "DocumentMoniker": "E:\\Git\\miladsoft\\AngorUI\\Angor.Client\\wwwroot\\icon-512.png",
+              "RelativeDocumentMoniker": "wwwroot\\icon-512.png",
+              "ToolTip": "E:\\Git\\miladsoft\\AngorUI\\Angor.Client\\wwwroot\\icon-512.png",
+              "RelativeToolTip": "wwwroot\\icon-512.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-03-24T15:45:06.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "manifest.webmanifest",
+              "DocumentMoniker": "E:\\Git\\miladsoft\\AngorUI\\Angor.Client\\wwwroot\\manifest.webmanifest",
+              "RelativeDocumentMoniker": "wwwroot\\manifest.webmanifest",
+              "ToolTip": "E:\\Git\\miladsoft\\AngorUI\\Angor.Client\\wwwroot\\manifest.webmanifest",
+              "RelativeToolTip": "wwwroot\\manifest.webmanifest",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001793|",
+              "WhenOpened": "2025-03-24T15:44:58.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Git\\miladsoft\\AngorUI\\Angor.Client\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\Git\\miladsoft\\AngorUI\\Angor.Client\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T15:05:01.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.razor",
+              "DocumentMoniker": "E:\\Git\\miladsoft\\AngorUI\\Angor.Client\\App.razor",
+              "RelativeDocumentMoniker": "App.razor",
+              "ToolTip": "E:\\Git\\miladsoft\\AngorUI\\Angor.Client\\App.razor",
+              "RelativeToolTip": "App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T15:04:41.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index.html",
+              "DocumentMoniker": "E:\\Git\\miladsoft\\AngorUI\\Angor.Client\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "wwwroot\\index.html",
+              "ToolTip": "E:\\Git\\miladsoft\\AngorUI\\Angor.Client\\wwwroot\\index.html",
+              "RelativeToolTip": "wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-24T15:04:01.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "style.css",
+              "DocumentMoniker": "E:\\Git\\miladsoft\\AngorUI\\Angor.Client\\style.css",
+              "RelativeDocumentMoniker": "style.css",
+              "ToolTip": "E:\\Git\\miladsoft\\AngorUI\\Angor.Client\\style.css",
+              "RelativeToolTip": "style.css",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-24T15:03:35.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "package.json",
+              "DocumentMoniker": "E:\\Git\\miladsoft\\AngorUI\\Angor.Client\\package.json",
+              "RelativeDocumentMoniker": "package.json",
+              "ToolTip": "E:\\Git\\miladsoft\\AngorUI\\Angor.Client\\package.json",
+              "RelativeToolTip": "package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-24T14:46:05.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Angor.Client",
+              "DocumentMoniker": "E:\\Git\\miladsoft\\AngorUI\\Angor.Client\\Angor.Client.csproj",
+              "RelativeDocumentMoniker": "Angor.Client.csproj",
+              "ToolTip": "E:\\Git\\miladsoft\\AngorUI\\Angor.Client\\Angor.Client.csproj",
+              "RelativeToolTip": "Angor.Client.csproj",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-24T14:44:13.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Home.razor",
+              "DocumentMoniker": "E:\\Git\\miladsoft\\AngorUI\\Angor.Client\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Pages\\Home.razor",
+              "ToolTip": "E:\\Git\\miladsoft\\AngorUI\\Angor.Client\\Pages\\Home.razor",
+              "RelativeToolTip": "Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T13:58:11.582Z",
+              "EditorCaption": ""
             }
           ]
         }
